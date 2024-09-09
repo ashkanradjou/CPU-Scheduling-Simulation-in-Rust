@@ -1,4 +1,4 @@
-# ashkanradjou-CPU-Scheduling-Simulation-in-Rust
+# CPU-Scheduling-Simulation-in-Rust
 
 # CPU Scheduling Simulation in Rust
 
@@ -29,6 +29,19 @@ At every time unit, the task with the shortest remaining execution time is chose
 
 ## Input Format
 
-The input file (`input.txt`) should contain lines where each line represents a task with three fields separated by spaces:
+The input file (`input.txt`) should contain lines where each line represents a task with three fields separated by spaces
 
 
+## Project Structure
+
+src/main.rs: Contains the main logic for scheduling and the CPU simulation.
+
+input.txt: The input file containing task details.
+
+## Future Enhancements
+
+Adding more scheduling algorithms (e.g., Priority Scheduling).
+
+Visualization of task execution.
+
+Dynamic input through user interaction or a graphical interface.
